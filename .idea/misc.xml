@@ -1,0 +1,22 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_chat.xml" value="0.22741433021806853" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_main.xml" value="0.309375" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_otp_aunthentication.xml" value="0.309375" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_sample.xml" value="0.24540401881145787" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_set_profile.xml" value="0.309375" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/activity_splash_screeen.xml" value="0.309375" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/status_fragment.xml" value="0.24540401881145787" />
+        <entry key="..\:/Android Session/MyChatApp/app/src/main/res/layout/statusfragment.xml" value="0.2539546814878153" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

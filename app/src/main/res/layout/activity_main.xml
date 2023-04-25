@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mychatapplogo"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logo"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:fontFamily="@font/raleway"
+        android:text="Chat app will send OTP in your mobile number"
+        android:textStyle="bold"
+        android:textColor="#6e6e6e"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textheading">
+    </TextView>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/centerHorizonalLine">
+    </RelativeLayout>
+
+<com.hbb20.CountryCodePicker
+    android:id="@+id/countrycodepicker"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_above="@id/centerHorizonalLine"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginBottom="8dp"
+    app:ccp_areaCodeDetectedCountry="true"
+    app:ccp_autoDetectCountry="true">
+
+</com.hbb20.CountryCodePicker>
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_below="@id/centerHorizonalLine"
+       android:hint="Enter Your Number Here.."
+       android:id="@+id/getphonenumber"
+       android:textAlignment="center"
+       android:inputType="number"
+       android:layout_marginTop="10dp"
+       android:textColor="@color/black"
+       android:layout_marginRight="70dp"
+       android:layout_marginLeft="70dp"></EditText>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/getphonenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sent"
+        android:id="@+id/sendotpbutton"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textColor="@color/white"
+        android:background="#25d366">
+    </Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sendotpbutton"
+        android:id="@+id/progerssbarbuttonofmain"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"></ProgressBar>
+
+
+
+
+</RelativeLayout>
